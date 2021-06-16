@@ -2,7 +2,7 @@
 A webring of creative individuals who put God first
 
 ## Join
-- Add a circle with a dot as on your homepage anywhere you'd like
+- Add a circle with a dot on your homepage anywhere you'd like
 - link it to the [webring](https://circumpunct.xyz)
 - Here is one way you could do it
 ```
