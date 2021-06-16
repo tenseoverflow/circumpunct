@@ -19,23 +19,42 @@ hr {
     color: white;
 }
 
-a {
+.link a {
     color: white;
     text-decoration: none;
 }
 
-a:hover {
+.link a:hover {
     font-style: italic;
     color: black;
     background: white;
 }
 
-a:before {
+.link a:before {
     content: '[';
 }
 
-a:after {
+.link a:after {
     content: ']';
+}
+
+.rss {
+    background-image: url('./rss.png');
+    background-repeat: no-repeat;
+}
+
+.rss a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.rss:hover {
+    background-image: url('./ssr.png');
+    background-repeat: no-repeat;
+}
+
+.sites span {
+    padding-right: 8px;
 }
 
 p {
