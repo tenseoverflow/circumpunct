@@ -8,7 +8,7 @@ A webring of creative individuals who put God first
 ```
 <a href="https://circumpunct.xyz" ><img src="https://circumpunct.xyz/logo.png" width="24" alt="">Webring</a>
 ```
-- Or you could use the html escape sequence &#8857; or even the svgs
+- Or you could use the html escape sequence &amp;#8857; or even the svgs
 
 ## Pull requests
 - Once you finish this, please submit a pull request (modify index.html) with a description of the location of the symbol
