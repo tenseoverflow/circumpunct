@@ -19,3 +19,6 @@ A webring of creative individuals who put God first
 - Have your own domain name, no *github.io* subdomains
 - Business pages are not good candidates
 
+### Help
+- Anyone in the ring can be a collaborator of this repo
+
