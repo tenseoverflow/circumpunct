@@ -11,7 +11,9 @@ A webring of creative individuals who put God first
 - Or you could use the html escape sequence &amp;#8857; or even the svgs
 
 ## Pull requests
-- Once you finish this, please submit a pull request (modify index.html) with a description of the location of the symbol
+- Once you finish this, please submit a pull request by forking the repo and modifying index.html.
+- Add an &lt;li&gt; tag with a link to your website and/or your rss feed
+- Please include a description of where someone could find the logo
 - If you don't add a description, your pr will be closed
 
 ## Criterion
