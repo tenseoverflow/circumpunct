@@ -41,11 +41,12 @@ hr {
 .rss {
     background-image: url('./rss.png');
     background-repeat: no-repeat;
+    margin-bottom: 20px;
 }
 
 .rss a {
     text-decoration: none;
-    padding: 10px;
+    padding: 15px;
 }
 
 .rss:hover {
@@ -54,7 +55,7 @@ hr {
 }
 
 .sites span {
-    padding-right: 8px;
+    padding-right: 10px;
 }
 
 p {
