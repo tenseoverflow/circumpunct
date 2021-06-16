@@ -12,7 +12,7 @@ A webring of creative individuals who put God first
 
 ## Pull requests
 - Once you finish this, please submit a pull request by forking the repo and modifying index.html.
-- Add a link to your website and/or your rss feed following the same convention as previous entries
+- Add a link to your website and/or your rss feed in index.html following the same convention as previous entries
 - Please include a description of where someone could find the logo
 - If you don't add a description, your pr will be closed
 
