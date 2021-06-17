@@ -1,0 +1,40 @@
+#!/bin/sh
+
+targetfile="index.html"
+domain_regex="\b((?=[a-z0-9-]{1,63}\.)(xn--)?[a-z0-9]+(-[a-z0-9]+)*\.)+[a-z]{2,63}\b"
+
+if [ -z "$1" ]; then
+    echo "What's the name of the website? (Don't include https:// or trailing slash):"
+    read -r domain
+    [ -z "$domain" ] && exit
+else  domain=$1
+fi
+
+echo $domain | grep -q -P "$domain_regex"
+[[ $? -eq 1 ]] && echo "Not a valid domain name" && exit
+tld_removed=$(echo $domain | sed -e 's/\.[a-z]*$//')
+https_added="https://${domain}"
+
+if [ -z "$2" ]; then
+    echo "What's the name of the rss feed file relative to the webroot if one exists? (Hit ENTER to skip):"
+    read -r ans
+    if [ ! -z $ans ]; then
+        rsslink="${https_added}/${ans}"
+        rss_snippet="<span class=\"rss\">  <a href=\"$rsslink\" ><!--keep empty--></a></span>"
+    else rss_snippet=""
+    fi
+else
+    rss_snippet="<span class=\"rss\">  <a href=\"$https_added/$2\" ><!--keep empty--></a></span>"
+fi
+
+echo "Are you sure you want to add $domain to the ring? [y/N]"
+read -r ans
+[ "$ans" != "y" ] && exit
+
+sed -i "/\!\-\-end\-\-/i \
+<li id=\"$tld_removed\"> \
+<span class=\"link\"> <a href=\"$https_added\" >$domain</a></span> \
+$rss_snippet \
+</li> \
+" $targetfile
+

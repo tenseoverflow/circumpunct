@@ -12,8 +12,14 @@ A webring of creative individuals who put God first
 - You can create your own as long as its a circle with a centered dot
 
 ## Pull requests
-- Once you finish this, please submit a pull request by forking the repo and modifying index.html.
-- Add a link to your website and/or your rss feed in index.html following the same convention as previous entries
+- Once you finish this, please submit a pull request by forking the repo
+- Either add a link to your website and/or your rss feed in index.html following manually OR
+- Use the script atr (Add to Ring)
+    ```
+    sudo chmod +x atr
+    ./atr <domain name> \[rss feed file\]
+    ```
+    * You can also run it with no arguments
 - Please include a description of where the logo is on your website
 - If you don't add a description, your pr will be closed
 
