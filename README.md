@@ -18,7 +18,7 @@ A webring of creative individuals who put God first
 - Use the script atr (Add to Ring)
     ```
     sudo chmod +x atr
-    ./atr <domain name> [rss feed file]
+    ./atr <domain name> [rss feed file name]
     ```
     * You can also run it with no arguments
     * Don't include https:// or a trailing slash
@@ -35,6 +35,8 @@ A webring of creative individuals who put God first
 ## Criterion
 - Anyone who is creative and puts God first will be added
 - Have your own domain name, no *github.io* subdomains
+- You must own the site, or get permission from the owner
+
 
 ### Help
 - Anyone in the ring can be a collaborator of this repo
