@@ -1,6 +1,6 @@
 #!/bin/sh
 
-targetfile="test.html"
+targetfile="index.html"
 domain_regex="\b((?=[a-z0-9-]{1,63}\.)(xn--)?[a-z0-9]+(-[a-z0-9]+)*\.)+[a-z]{2,63}\b"
 
 if [ -z "$1" ]; then
