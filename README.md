@@ -23,7 +23,7 @@ A webring of creative individuals who put God first
     * Don't include https:// or a trailing slash
     * The rss file should be relative to your webroot
 ### Example
-    - If your website is www.mywebsite.com and your rss file called rss.xml is in the root of your web directory, you'd type
+- If your website is www.mywebsite.com and your rss file called rss.xml is in the root of your web directory, you'd type
     ```
     ./atr mywebsite.com rss.xml
     ```
