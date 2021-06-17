@@ -9,7 +9,7 @@ A webring of creative individuals who put God first
 <a href="https://circumpunct.xyz" ><img src="https://circumpunct.xyz/logo.png" width="24" alt="">Webring</a>
 ```
 - Or you could use the html escape sequence &amp;#8857; or even the svgs
-- You can create your own as long as its a circle with a centered dot
+- You can create your own as long as its a circle with a centered dot and links back to the webring
 
 ## Pull requests
 - Once you finish this, please submit a pull request by forking the repo
