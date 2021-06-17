@@ -20,7 +20,15 @@ A webring of creative individuals who put God first
     ./atr <domain name> [rss feed file]
     ```
     * You can also run it with no arguments
-- Please include a description of where the logo is on your website
+    * Don't include https:// or a trailing slash
+    * The rss file should be relative to your webroot
+### Example
+    - If your website is www.mywebsite.com and your rss file called rss.xml is in the root of your web directory, you'd type
+    ```
+    ./atr mywebsite.com rss.xml
+    ```
+
+- Please include a description of where the logo is on your website on your pull request
 - If you don't add a description, your pr will be closed
 
 ## Criterion
