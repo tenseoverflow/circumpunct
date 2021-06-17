@@ -17,7 +17,7 @@ A webring of creative individuals who put God first
 - Use the script atr (Add to Ring)
     ```
     sudo chmod +x atr
-    ./atr <domain name> \[rss feed file\]
+    ./atr <domain name> [rss feed file]
     ```
     * You can also run it with no arguments
 - Please include a description of where the logo is on your website
