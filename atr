@@ -1,6 +1,6 @@
 #!/bin/sh
 
-targetfile="index.html"
+targetfile="test.html"
 domain_regex="\b((?=[a-z0-9-]{1,63}\.)(xn--)?[a-z0-9]+(-[a-z0-9]+)*\.)+[a-z]{2,63}\b"
 
 if [ -z "$1" ]; then
@@ -31,10 +31,8 @@ echo "Are you sure you want to add $domain to the ring? [y/N]"
 read -r ans
 [ "$ans" != "y" ] && exit
 
-sed -i "/\!\-\-end\-\-/i \
-<li id=\"$tld_removed\"> \
-<span class=\"link\"> <a href=\"$https_added\" >$domain</a></span> \
-$rss_snippet \
-</li> \
-" $targetfile
+sed -i "/\!\-\-end\-\-/i \            <li id=\"$tld_removed\">" $targetfile
+sed -i "/\!\-\-end\-\-/i \                <span class=\"link\"> <a href=\"$https_added\" >$domain</a></span>" $targetfile
+sed -i "/\!\-\-end\-\-/i \                $rss_snippet" $targetfile
+sed -i "/\!\-\-end\-\-/i \            </li>" $targetfile
 
