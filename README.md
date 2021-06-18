@@ -36,7 +36,7 @@ A webring of creative individuals who put God first
 
 ## Criterion
 - Anyone who is creative and puts God first will be added
-- Have your own domain name, no *github.io* subdomains
+- Have your own domain name, no *github.io* subdomains or direct sales companies
 - You must own the site, or get permission from the owner
 
 
