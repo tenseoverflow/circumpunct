@@ -40,6 +40,8 @@ A webring of creative individuals who put God first
 - Have your own domain name, no *github.io* subdomains or direct sales companies
 - You must own the site, or get permission from the owner
 
+## Disclaimer
+- Everyone in the ring has their own ideas. By entering you endorse the ring's goal: to increase discoverability among small website owners who put God first. However, entering is not an explicit endorsement of individuals within the ring itself.
 
 ### Help
 - Anyone in the ring can be a collaborator of this repo
