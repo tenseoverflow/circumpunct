@@ -33,6 +33,7 @@ A webring of creative individuals who put God first
 
 - Please include a description of where the logo is on your website in your pull request
 - If you don't add a description, your pr will be closed
+- It'd be nice if you could launch the site locally, ensuring your link(s) works and nothing weird happened in the layout before submitting the pr
 
 ## Criterion
 - Anyone who is creative and puts God first will be added
