@@ -11,6 +11,8 @@ A webring of creative individuals who put God first
 ```
 - Or you could use the html escape sequence &amp;#8857; or even the svgs
 - You can create your own as long as its a circle with a centered dot and links back to the webring
+### Wordpress
+- For those who have wp sites, although I'd like to keep that to a minimum, you can find a tutorial on how to do this [here](https://www.competethemes.com/blog/link-image-url-wordpress/)
 
 ## Pull requests
 - Once you finish this, please submit a pull request by forking the repo
