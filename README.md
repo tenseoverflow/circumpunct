@@ -16,7 +16,7 @@ A webring of creative individuals who put God first
 
 ## Pull requests
 - Once you finish this, please submit a pull request by forking the repo
-- Either add a link to your website and/or your rss feed in index.html following manually OR
+- Either add a link to your website and/or your rss feed in index.html manually (following the same conventions) OR
 - Use the script atr (Add to Ring)
     ```
     sudo chmod +x atr
@@ -31,7 +31,7 @@ A webring of creative individuals who put God first
     ./atr mywebsite.com rss.xml
     ```
 
-- Please include a description of where the logo is on your website on your pull request
+- Please include a description of where the logo is on your website in your pull request
 - If you don't add a description, your pr will be closed
 
 ## Criterion
