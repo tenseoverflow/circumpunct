@@ -2,6 +2,7 @@
 A webring of creative individuals who put God first
 
 # How to Join
+![logo](logo.png)
 ## Use the Logo
 - Add a circle with a dot anywhere on your homepage / links page
 - link it to the [webring](https://circumpunct.xyz)
