@@ -1,8 +1,7 @@
-# circumpunct
+# Circumpunct &#8857;
 A webring of creative individuals who put God first
 
 # How to Join
-![logo](logo.png)
 ## Use the Logo
 - Add a circle with a dot anywhere on your homepage / links page
 - link it to the [webring](https://circumpunct.xyz)
@@ -47,3 +46,4 @@ A webring of creative individuals who put God first
 ### Help
 - Anyone in the ring can be a collaborator of this repo
 
+![logo](logo.png)
