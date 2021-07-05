@@ -42,7 +42,7 @@ A webring of creative individuals who put God first
 
 ## Disclaimer
 - Everyone in the ring has their own ideas. By entering you endorse the ring's goal: to increase discoverability among small website owners who put God first. However, entering is not an explicit endorsement of individuals within the ring itself.
-- Being the most fundamental symbol, the ancient circumpunct has been used by all sorts of groups/cults. However, this ring has no affiliation with "free masons" or whatever spooky group you can find on wikipedia. The symbol has been tainted by these groups and really is it's own thing. It's guilt by association at most. *We openly condemn any secret society that uses this symbol.*
+- Being the most fundamental symbol, the ancient circumpunct has been used by all sorts of groups/cults. However, this ring has no affiliation with "free masons" or whatever spooky group you can find on wikipedia. The symbol has been tainted by these groups and really is it's own thing. It's guilt by association at most. *We openly condemn any secret society that uses this symbol.* **Yes this includes [target](https://www.target.com)**
 ### Help
 - Anyone in the ring can be a collaborator of this repo
 
