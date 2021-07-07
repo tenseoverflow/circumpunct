@@ -75,7 +75,7 @@ li {
 }
 
 .rss {
-    background-image: url('./rss.png');
+    background-image: url('./assets/rss.png');
     background-repeat: no-repeat;
     margin-bottom: 20px;
 }
@@ -86,7 +86,7 @@ li {
 }
 
 .rss:hover {
-    background-image: url('./ssr.png');
+    background-image: url('./assets/ssr.png');
     background-repeat: no-repeat;
 }
 
