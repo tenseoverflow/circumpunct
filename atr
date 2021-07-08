@@ -20,11 +20,23 @@ if [ -z "$2" ]; then
     read -r ans
     if [ ! -z $ans ]; then
         rsslink="${https_added}/${ans}"
-        rss_snippet="<span class=\"rss\">  <a href=\"$rsslink\" ><!--keep empty--></a></span>"
+        rss_snippet="<a href=\"$rsslink\" ><span class=\"rss\"></span></a>"
     else rss_snippet=""
     fi
 else
-    rss_snippet="<span class=\"rss\">  <a href=\"$https_added/$2\" ><!--keep empty--></a></span>"
+    rss_snippet="<a href=\"$https_added/$2\" ><span class=\"rss\"></span></a>"
+fi
+
+if [ -z "$3" ]; then
+    echo "Do you have a hidden service? (tor) (Hit ENTER to skip):"
+    read -r ans
+    if [ ! -z $ans ]; then
+        torlink="${ans}"
+        tor_snippet="<a href=\"$torlink\" ><span class=\"tor\"></span></a>"
+    else tor_snippet=""
+    fi
+else
+    tor_snippet="<a href=\"$3\" ><span class=\"tor\"></span></a>"
 fi
 
 echo "Are you sure you want to add $domain to the ring? [y/N]"
@@ -34,5 +46,6 @@ read -r ans
 sed -i "/\!\-\-end\-\-/i \            <li id=\"$tld_removed\">" $targetfile
 sed -i "/\!\-\-end\-\-/i \                <span class=\"link\"> <a href=\"$https_added\" >$domain</a></span>" $targetfile
 sed -i "/\!\-\-end\-\-/i \                $rss_snippet" $targetfile
+sed -i "/\!\-\-end\-\-/i \                $tor_snippet" $targetfile
 sed -i "/\!\-\-end\-\-/i \            </li>" $targetfile
 
