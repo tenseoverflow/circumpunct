@@ -75,25 +75,36 @@ li {
 }
 
 .rss {
-    background-image: url('./assets/rss.png');
-    background-repeat: no-repeat;
-    margin-bottom: 20px;
+    content: url('./assets/rss.png');
+    margin-bottom: -5px;
 }
 
 .rss a {
     text-decoration: none;
-    padding: 10px;
 }
 
 .rss:hover {
-    background-image: url('./assets/ssr.png');
-    background-repeat: no-repeat;
+    content: url('./assets/ssr.png');
+    margin-bottom: -5px;
+}
+
+.tor {
+    content: url('./assets/tor.png');
+    margin-bottom: -5px;
+}
+
+.tor a {
+    text-decoration: none;
+}
+
+.tor:hover {
+    content: url('./assets/rot.png');
+    margin-bottom: -5px;
 }
 
 .sites span {
-    padding-right: 10px;
+    padding-right: 5px;
 }
-
 
 p {
     max-width: 700px;
