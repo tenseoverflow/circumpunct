@@ -89,7 +89,7 @@ li {
 }
 
 .tor {
-    content: url('./assets/tor.png');
+    content: url('./assets/tor.svg');
     margin-bottom: -5px;
 }
 
@@ -98,7 +98,7 @@ li {
 }
 
 .tor:hover {
-    content: url('./assets/rot.png');
+    content: url('./assets/rot.svg');
     margin-bottom: -5px;
 }
 
