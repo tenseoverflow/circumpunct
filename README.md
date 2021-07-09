@@ -20,8 +20,9 @@ A webring of creative individuals who put God first
 - Use the script atr (Add to Ring)
     ```
     sudo chmod +x atr
-    ./atr <domain name> [rss feed file name]
+    ./atr <domain name> [rss feed file name] [hidden service address]
     ```
+    * The feed and tor links are optional
     * You can also run it with no arguments
     * Don't include https:// or a trailing slash
     * The rss file should be relative to your webroot
