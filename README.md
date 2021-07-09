@@ -46,4 +46,4 @@ A webring of creative individuals who put God first
 ### Help
 - Anyone in the ring can be a collaborator of this repo
 
-![logo](logo.png)
+![logo](assets/logo.png)
