@@ -20,11 +20,11 @@ if [ -z "$2" ]; then
     read -r ans
     if [ ! -z $ans ]; then
         rsslink="${https_added}/${ans}"
-        rss_snippet="<a href=\"$rsslink\" ><span class=\"rss\"></span></a>"
+        rss_snippet="<a href=\"$rsslink\" class=\"rss\"></a>"
     else rss_snippet=""
     fi
 else
-    rss_snippet="<a href=\"$https_added/$2\" ><span class=\"rss\"></span></a>"
+    rss_snippet="<a href=\"$https_added/$2\" class=\"rss\"></a>"
 fi
 
 if [ -z "$3" ]; then
@@ -32,11 +32,11 @@ if [ -z "$3" ]; then
     read -r ans
     if [ ! -z $ans ]; then
         torlink="${ans}"
-        tor_snippet="<a href=\"$torlink\" ><span class=\"tor\"></span></a>"
+        tor_snippet="<a href=\"$torlink\" class=\"tor\"></a>"
     else tor_snippet=""
     fi
 else
-    tor_snippet="<a href=\"$3\" ><span class=\"tor\"></span></a>"
+    tor_snippet="<a href=\"$3\" class=\"tor\" ></a>"
 fi
 
 echo "Are you sure you want to add $domain to the ring? [y/N]"
