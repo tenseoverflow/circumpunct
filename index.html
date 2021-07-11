@@ -58,9 +58,11 @@
         <p>Join XMPP MUC: <code>g@chat.circumpunct.xyz <a href="xmpp:g@chat.circumpunct.xyz"><img src="assets/xmpp.svg" width=28 alt=""/></a></code></p>
 
         <form action="/cgi-bin/random.pl" method="get" id="rand"></form>
-
-        <button onclick="toggle('rss')">[rss]</button>
-        <button onclick="toggle('tor')">[tor]</button>
+        <div class=".buttons">
+            <button onclick="toggle('rss')">[rss]</button>
+            <button onclick="toggle('tor')">[tor]</button>
+            <button type="submit" form="rand">[random]</button>
+        </div>
         <script charset="utf-8">
             function toggle(classname) {
                 elements = document.getElementsByClassName(classname);
@@ -69,7 +71,6 @@
                 }
             }
         </script>
-        <button type="submit" form="rand">[random]</button>
 
         <!--#include virtual="/cgi-bin/counter.pl" -->
         <!--#include virtual="/cgi-bin/highlight.pl" -->

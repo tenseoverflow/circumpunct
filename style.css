@@ -22,6 +22,14 @@ body {
         max-width: 1vh;
     }
 
+    button {
+        float: left;
+    }
+
+    footer {
+        display: none;
+    }
+
 }
 @media (min-width: 45rem) {
 
@@ -37,6 +45,11 @@ body {
         -o-column-gap: var(--column-gap);
         column-gap: var(--column-gap);
         flex-wrap: wrap;
+    }
+
+    button {
+        position: relative;
+        left: 67%;
     }
 }
 
@@ -117,8 +130,6 @@ button {
     background-color: black;
     color: white;
     border: none;
-    position: relative;
-    left: 70%;
     cursor: pointer;
 }
 

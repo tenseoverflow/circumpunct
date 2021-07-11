@@ -8,12 +8,11 @@ my $url = $ENV{'HTTP_REFERER'};
 if ($url =~ /^https.*$/){
     $url =~ s/https:\/\///;
     $url =~ s/\..*$//;
-    print $cgi->start_html(-style => {
-            -verbatim =>
-            "#$url .link a {
+    print $cgi->start_style();
+    print "#$url .link a {
             background-color:white;
-            color: black;}"
-        }
-    );
+            color: black;}";
+    print $cgi->end_style();
+
 }
 exit;
