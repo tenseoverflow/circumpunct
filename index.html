@@ -56,7 +56,19 @@
         <p>Welcome to <strong>&#8857;</strong>, a webring of creative individuals who put God first. Anyone who spreads the good, the true and the beautiful is welcome. </p>
         <p>To join, read the <span class="link" ><a href="https://github.com/tfasano1/circumpunct" >readme</a></span>. To report dead links, open an <span class="link" ><a href="https://github.com/tfasano1/circumpunct/issues" >issue</a></span>.</p>
         <p>Join XMPP MUC: <code>g@chat.circumpunct.xyz <a href="xmpp:g@chat.circumpunct.xyz"><img src="assets/xmpp.svg" width=28 alt=""/></a></code></p>
+
         <form action="/cgi-bin/random.pl" method="get" id="rand"></form>
+
+        <button onclick="toggle('rss')">[rss]</button>
+        <button onclick="toggle('tor')">[tor]</button>
+        <script charset="utf-8">
+            function toggle(classname) {
+                elements = document.getElementsByClassName(classname);
+                for (var i = 0; i < elements.length; i++) {
+                    elements[i].style.visibility = elements[i].style.visibility == 'visible' ? 'hidden' : 'visible';
+                }
+            }
+        </script>
         <button type="submit" form="rand">[random]</button>
 
         <!--#include virtual="/cgi-bin/counter.pl" -->

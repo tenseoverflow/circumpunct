@@ -77,6 +77,7 @@ li {
 .rss {
     content: url('./assets/rss.svg');
     margin-bottom: -5px;
+    visibility: hidden;
 }
 
 .rss a {
@@ -91,6 +92,7 @@ li {
 .tor {
     content: url('./assets/tor.svg');
     margin-bottom: -5px;
+    visibility: hidden;
 }
 
 .tor a {
@@ -116,7 +118,8 @@ button {
     color: white;
     border: none;
     position: relative;
-    left: 83%;
+    left: 70%;
+    cursor: pointer;
 }
 
 button:hover {

@@ -10,9 +10,10 @@ if ($url =~ /^https.*$/){
     $url =~ s/\..*$//;
     print $cgi->start_html(-style => {
             -verbatim =>
-            "#$url .link a { background-color:
-            white; color: black;}"
+            "#$url .link a {
+            background-color:white;
+            color: black;}"
         }
     );
 }
-
+exit;

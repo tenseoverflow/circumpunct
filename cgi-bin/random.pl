@@ -18,4 +18,4 @@ my $redirect = $sites[ rand @sites ];
 print $cgi->redirect(-url=>$redirect);
 
 $tree->delete();
-
+exit;
