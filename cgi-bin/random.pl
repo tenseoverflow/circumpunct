@@ -13,11 +13,9 @@ for my $div ( $tree->look_down(_tag => 'ol') ) {
         push(@sites, $_->attr('href'));
     }
 }
-
 my $redirect = $sites[ rand @sites ];
 
 print $cgi->redirect(-url=>$redirect);
-
 
 $tree->delete();
 
