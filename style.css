@@ -110,9 +110,22 @@ p {
     max-width: 700px;
 }
 
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    position: relative;
+    left: 83%;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
 header > div {
    text-align: right;
-   color: #eeeeee;
+   color: #eee;
 }
 
 header > div h1 {
@@ -133,6 +146,7 @@ header > div h1 > span {
 header > div h1 .bold {
    font-weight: 400;
 }
+
 header > div h1 > a {
    padding: 1rem;
    height: 5rem;
