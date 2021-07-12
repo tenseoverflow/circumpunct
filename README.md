@@ -11,6 +11,7 @@ A webring of creative individuals who put God first
 ```
 - Or you could use the html escape sequence &amp;#8857; or even the svgs (in the /assets folder)
 - You can create your own as long as its a circle with a centered dot and links back to the webring
+- **Note** - Do not make the link open in a new tab, your site will be highlighted when viewers come from your site, so they will easily be able to navigate back to it
 ### Wordpress
 - For those who have wp sites, although I'd like to keep that to a minimum, you can find a tutorial on how to do this [here](https://www.competethemes.com/blog/link-image-url-wordpress/)
 
