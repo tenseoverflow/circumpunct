@@ -1,7 +1,7 @@
 # Circumpunct &#8857;
 A webring of creative individuals who put God first
 
-# How to Join
+# How to Become a Contributor
 ## Use the Logo
 - Add a circle with a dot anywhere on your homepage / links page
 - link it to the [webring](https://circumpunct.xyz)
