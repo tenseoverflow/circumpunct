@@ -1,1 +1,83 @@
-index.html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="description" content="Welcome to circumpunct, a webring of remarkable individuals who spread the good, the true and the beautiful.">
+        <title>Webring</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="shortcut icon" type="image/svg" href="/assets/logo.svg"/>
+
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1>
+                    <a href="https://tomfasano.xyz/posts/circumpunct.html">
+                        <svg baseProfile="full" class="circum"
+                        version="1.1" viewBox="-0.75 -1 1.5 2"
+                        xmlns="http://www.w3.org/2000/svg"><g
+                        transform="translate(0 .18)"><g class="circle out"><circle
+                        fill="none" r=".6" stroke-width=".12"></circle></g><g
+                        class="circle  in"><circle r=".2"
+                        stroke="none"></circle></g></g></svg></a>
+                    <a href="/" >circumpunct.xyz</a>
+                </h1>
+            </div>
+        </header>
+        <nav></nav>
+        <hr><br>
+        <ol class="sites">
+            <li id="tomfasano">
+                <span class="link" ><a href="https://tomfasano.xyz" >tomfasano.xyz</a></span>
+                <a href="https://tomfasano.xyz/rss.xml" class="rss"></a>
+                <a href="http://i3hhrvzve4a7lm565aci6p2e33cphc6c4t6xktpksbvqac5ad3rfjgqd.onion/" class="tor"></a>
+            </li>
+            <li id="sheriffmediocre">
+                <span class="link"> <a href="https://sheriffmediocre.xyz" >sheriffmediocre.xyz</a></span>
+                <a href="https://sheriffmediocre.xyz/rss.xml" class="rss"></a>
+            </li>
+            <li id="bargainbinphilosophy">
+                <span class="link"> <a href="https://bargainbinphilosophy.xyz" >bargainbinphilosophy.xyz</a></span>
+            </li>
+            <li id="jacobwsmith">
+                <span class="link"> <a href="https://jacobwsmith.xyz" >jacobwsmith.xyz</a></span>
+                <a href="https://jacobwsmith.xyz/rss.xml" class="rss"></a>
+            </li>
+            <li id="aeternumbodycare">
+                <span class="link"> <a href="https://aeternumbodycare.com" >aeternumbodycare.com</a></span>
+            </li>
+            <li id="tombarrett">
+                <span class="link"> <a href="https://tombarrett.xyz" >tombarrett.xyz</a></span>
+            </li>
+            <li id="benoneill">
+                <span class="link"> <a href="https://benoneill.xyz" >benoneill.xyz</a></span>
+                <a href="https://benoneill.xyz/rss.xml" class="rss"></a>
+            </li>
+            <!--end-->
+        </ol>
+        <hr> <br>
+        <p>Welcome to <strong>&#8857;</strong>, a webring of creative individuals who put God first. Anyone who spreads the good, the true and the beautiful is welcome. </p>
+        <p>To join, <span class="link" ><a href="submit" >submit</a></span> the site or a <span class=link><a href="https://github.com/tfasano1/circumpunct" >pr</a></span>. Report dead links <span class="link" ><a href="https://github.com/tfasano1/circumpunct/issues" >here</a></span>.</p>
+        <p>XMPP MUC: <code>g@chat.circumpunct.xyz <a href="xmpp:g@chat.circumpunct.xyz"><img src="assets/xmpp.svg" width=28 alt=""/></a></code></p>
+
+        <form action="/cgi-bin/random.pl" method="get" id="rand"></form>
+
+        <button onclick="toggle('rss')">[rss]</button>
+        <button onclick="toggle('tor')">[tor]</button>
+        <button type="submit" form="rand">[random]</button>
+
+        <script charset="utf-8">
+            function toggle(classname) {
+                elements = document.getElementsByClassName(classname);
+                for (var i = 0; i < elements.length; i++) {
+                    elements[i].style.visibility = elements[i].style.visibility == 'visible' ? 'hidden' : 'visible';
+                }
+            }
+        </script>
+
+        <!--#include virtual="/cgi-bi/analytics.pl" -->
+        <!--#include virtual="/cgi-bin/highlight.pl" -->
+        <footer><span class=link><a href="/admin" class=link >Admin</a></span></footer>
+    </body>
+</html>
