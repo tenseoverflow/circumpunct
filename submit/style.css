@@ -1,0 +1,176 @@
+html, body {
+    color: snow;
+    text-align: center;
+    background: #101010;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {text-decoration: none}
+
+h1, a {
+    color: white;
+}
+
+hr {
+    color: linen;
+    float: left;
+    width: 40%;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    max-width: 450px;
+}
+
+.flex-col h2, p {
+    padding: 6px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.flex-col input, textarea {
+    text-align: left;
+}
+
+input[type=text],
+textarea {
+    resize: vertical;
+    min-height: 42.6;
+    font-family: sans-serif;
+    font-size: small;
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 4px;
+    background-color: #202020;
+    color: snow;
+    border: black;
+    cursor: text;
+    outline: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type=submit] {
+    text-align: center;
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 4px;
+    cursor: pointer;
+    background-color: #202020;
+    color: snow;
+    border: black;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background: #ddd;
+    color: #111;
+}
+
+@media only screen and (max-width: 55em) {
+    input[type=text],
+    textarea {
+        resize: vertical;
+        min-height: 42.6;
+        font-family: sans-serif;
+        font-size: small;
+        width: 95%;
+        padding: 12px 20px;
+        margin: 8px 4px;
+        background-color: #202020;
+        color: snow;
+        border: black;
+        cursor: text;
+        outline: none;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
+    input[type=submit] {
+        text-align: center;
+        width: 95%;
+        padding: 12px 20px;
+        margin: 8px 4px;
+        cursor: pointer;
+        background-color: #202020;
+        color: snow;
+        border: black;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
+
+    hr { width: 100%}
+}
+
+header > div {
+   text-align: right;
+   color: #eee;
+}
+
+header > div h1 {
+   display: flex;
+   justify-content: left;
+   align-items: left;
+   flex-wrap: wrap;
+   margin: 0;
+   line-height: 5rem;
+   font-size: 3rem;
+   font-weight: 250;
+}
+
+header > div h1 > span {
+   margin-left: auto;
+}
+
+header > div h1 .bold {
+   font-weight: 400;
+}
+
+header > div h1 > a {
+   padding: 1rem;
+   height: 5rem;
+}
+
+@media only screen and (max-width: 425px) {
+    header > div h1 {
+        font-size: 2rem;
+        line-height: 5rem;
+    }
+}
+
+header > div h1 .circum {
+   height: 100%;
+   stroke: currentColor;
+   fill: currentColor;
+}
+
+header > div h1 .circum .out, header > div h1 .circum .in {
+    animation: spin 2s;
+    animation-iteration-count: 1;
+    transform: scale(1);
+}
+
+header > div h1 .circum .in {
+    animation: size 2s;
+}
+
+header > div h1 .circum.spin .circle {
+    animation: none;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate3d(0.5, 1, 0, 0turn); }
+  100% {
+    transform: rotate3d(0.5, 1, 0, 1turn); } }
+
+@keyframes size {
+  0%, 100% {
+    transform: scale(1); }
+  40%, 60% {
+    transform: scale(1.8); } }
