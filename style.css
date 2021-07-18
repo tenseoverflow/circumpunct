@@ -138,6 +138,38 @@ button:hover {
     color: black;
 }
 
+textarea {
+    display: none;
+}
+
+.adminOptions {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    color: snow;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input[value=visit] {
+    background: #333;
+}
+
+input[value=visit]:hover {
+    background: #aaa;
+}
+
+input[value=delete] {
+    background: #b06;
+}
+
+input[value=delete]:hover {
+    background: #f00;
+}
+
 header > div {
    text-align: right;
    color: #eee;

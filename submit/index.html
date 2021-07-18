@@ -30,12 +30,19 @@
         <hr><br>
         <div class=flex-col>
             <h2>Rules</h2>
-            <p>To prevent spam, you can only submit a request to join once a week. Please double check your entry.</p>
-            <p>Put a &#8857; anywhere on your home page linking to this site. Don't have it open in a new tab.</p>
-            <p>If you don't include a description of where the linked logo can be found, your submission is thrown out.</p>
+            <ol>
+                <li>To prevent spam, you can only submit a request to join once a week. Please double check your entry.</li>
+                <li>Put a &#8857; anywhere on your home page linking to this site. Don't have it open in a new tab.</li>
+                <li>You must own the site, no <em>github.io</em> or direct sales companies. No adding other people's sites.</li>
+                <li>If you don't describe where the logo can be found or ignore previous rules, your submission is thrown out.</li>
+            </ol>
             <form method='post' action='/cgi-bin/submit.pl' enctype="multipart/form-data" >
-                <input name='domain' type='text' placeholder='example.com'><br>
+                <label for="domain">Mandatory</label>
+                <input name='domain' type='text' placeholder='example.org'><br>
                 <textarea rows='3' name='description' type='text' placeholder='Location of logo'></textarea><br>
+                <label for="feed">Optional</label>
+                <input name='feed' type='text' placeholder='Rss feed link'><br>
+                <input name='tor' type='text' placeholder='example.onion'><br>
                 <input value='send' type='submit'>
             </form>
         </div>

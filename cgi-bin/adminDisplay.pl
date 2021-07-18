@@ -25,10 +25,10 @@ print scalar @filtered;
 print "\n";
 
 $this = "submissions.txt";
+print "==============\n";
 open (THIS, $this ) || die("Can't open file chief");
 while (my $line = <THIS>) {
-    print $line;
-    print "\n";
+    print $line."\n";
 }
 close (THIS);
 exit;

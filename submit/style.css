@@ -19,6 +19,12 @@ hr {
     width: 40%;
 }
 
+label {
+    float: left;
+    margin-left: 20px;
+    padding 6px;
+}
+
 .flex-col {
     display: flex;
     flex-direction: column;
@@ -26,7 +32,7 @@ hr {
     max-width: 450px;
 }
 
-.flex-col h2, p {
+.flex-col h2, li {
     padding: 6px;
     margin-left: 20px;
     text-align: left;
