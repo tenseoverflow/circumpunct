@@ -18,5 +18,6 @@ while (<$FH_in>) {
 close $FH_in;
 close $FH_out;
 move ($file_out, $file_in) or die("Can't move $file_out to $file_in: $!");
-print $cgi->redirect(-url=>"https://circumpunct.xyz/admin");
+my $url = "https://" . $ENV{"HTTP_HOST"} . "/admin";
+print $cgi->redirect(-url=>$url);
 exit;
